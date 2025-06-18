@@ -1,0 +1,17 @@
+C:\Users\emilc\Desktop\WeatherNowAdministrator\Properties\img\logo.ico
+C:\Users\emilc\Desktop\WeatherNowAdministrator\WeatherNowApplication.exe
+C:\Users\emilc\Desktop\WeatherNowAdministrator\Properties\img\Logo_transparent.png
+C:\Users\emilc\Desktop\WeatherNowAdministrator\Properties\img\NexelLogo.png
+C:\Users\emilc\Desktop\WeatherNowAdministrator\Properties\img\WeatherNowicon.ico
+C:\Users\emilc\Desktop\WeatherNowAdministrator\Properties\img\WeatherNowLogo.png
+C:\Users\emilc\Desktop\WeatherNowAdministrator\WeatherNowApplication.dll
+C:\Users\emilc\Desktop\WeatherNowAdministrator\WeatherNowApplication.deps.json
+C:\Users\emilc\Desktop\WeatherNowAdministrator\WeatherNowApplication.runtimeconfig.json
+C:\Users\emilc\Desktop\WeatherNowAdministrator\WeatherNowApplication.dll.config
+C:\Users\emilc\Desktop\WeatherNowAdministrator\WeatherNowApplication.pdb
+C:\Users\emilc\Desktop\WeatherNowAdministrator\System.Data.SqlClient.dll
+C:\Users\emilc\Desktop\WeatherNowAdministrator\runtimes\win-arm64\native\sni.dll
+C:\Users\emilc\Desktop\WeatherNowAdministrator\runtimes\win-x64\native\sni.dll
+C:\Users\emilc\Desktop\WeatherNowAdministrator\runtimes\win-x86\native\sni.dll
+C:\Users\emilc\Desktop\WeatherNowAdministrator\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\emilc\Desktop\WeatherNowAdministrator\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

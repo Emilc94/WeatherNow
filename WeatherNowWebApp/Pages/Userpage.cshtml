@@ -1,0 +1,173 @@
+﻿@page
+@model WeatherNowWebApp.Pages.UserpageModel
+@using System.Text.Json;
+@using System.Globalization;
+@using Microsoft.AspNetCore.Authorization;
+
+@{
+    ViewData["Title"] = "Userpage";
+    Layout = null;
+}
+
+@{
+    // Gruppere og beregne gjennomsnittlig temperatur per dag
+    var dailyTemperatureData = Model.LogDataList
+        .Where(ld => ld.SensorType == "temperature")
+        .GroupBy(ld => ld.MeasurementTime.ToString("dd-MM-yyyy"))
+        .Select(g => new { Date = g.Key, AverageTemperature = g.Average(ld => Convert.ToDouble(ld.MeasurementData, CultureInfo.InvariantCulture)) });
+
+    // Gruppere og beregne gjennomsnittlig fuktighet per dag
+    var dailyHumidityData = Model.LogDataList
+        .Where(ld => ld.SensorType == "humidity")
+        .GroupBy(ld => ld.MeasurementTime.ToString("dd-MM-yyyy"))
+        .Select(g => new { Date = g.Key, AverageHumidity = g.Average(ld => Convert.ToDouble(ld.MeasurementData, CultureInfo.InvariantCulture)) });
+}
+
+<script>
+    // Datoetiketter, gjennomsnittlig temperatur og fuktighet per dag
+    const labels = @Html.Raw(JsonSerializer.Serialize(dailyTemperatureData.Select(d => d.Date)));
+    const temperatures = @Html.Raw(JsonSerializer.Serialize(dailyTemperatureData.Select(d => d.AverageTemperature)));
+    const humidityData = @Html.Raw(JsonSerializer.Serialize(dailyHumidityData.Select(d => d.AverageHumidity)));
+</script>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherNow User Page</title>
+    <link rel="stylesheet" href="~/css/userpage.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-login">
+            <nav class="navbar content-container">                
+                <div class="navbar-brand-container">
+                    <img src="~/img/Logo.png" alt="WeatherNow Logo" class="logo" height="70">
+                    <a class="navbar-brand" href="~/">WeatherNow</a>
+                    @if (User.Identity.IsAuthenticated)
+                    {                        
+                            <form method="post" class="navbar-brand" asp-page-handler="Logout">
+                                <button type="submit">Logout</button>
+                            </form>                       
+                    }
+                </div>                
+            </nav>
+        </nav>
+    </header>
+
+    <!-- Main content -->
+    <div class="content-container">
+        <!-- Tabell plassert til venstre -->
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Measurement Time</th>
+                        <th>Sensor Type</th>
+                        <th>Measurement Data</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var logData in Model.LogDataList.OrderByDescending(x => x.MeasurementTime).Take(20))
+                    {
+                        <tr>
+                            <td>@logData.MeasurementTime</td>
+                            <td>@logData.SensorType</td>
+                            <td>@logData.MeasurementData@(logData.SensorType == "temperature" ? "°C" : "%")</td>
+                        </tr>
+                    }
+                </tbody>
+
+            </table>
+        </div>
+
+        <!-- Grafene plassert til høyre -->
+        <div class="charts-container">
+            <div class="chart-container temperature">
+                <h2>Temperature Over Time</h2>
+                <canvas id="temperatureChart"></canvas>
+            </div>
+
+            <div class="chart-container humidity">
+                <h2>Humidity Over Time</h2>
+                <canvas id="humidityChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        // Temperaturgraf
+        const tempCtx = document.getElementById('temperatureChart').getContext('2d');
+        const temperatureChart = new Chart(tempCtx, {
+            type: 'line',
+            data: {
+                labels: labels, // Datoer fra databasen
+                datasets: [{
+                    label: 'Average Temperature (°C)',
+                    data: temperatures, // Gjennomsnittlig temperatur per dag
+                    borderColor: 'rgba(75, 192, 192, 1)',
+                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                    fill: true,
+                }]
+            },
+            options: {
+                scales: {
+                    x: {
+                        title: {
+                            display: true,
+                            text: 'Date'
+                        }
+                    },
+                    y: {
+                        title: {
+                            display: true,
+                            text: 'Temperature (°C)'
+                        }
+                    }
+                }
+            }
+        });
+
+        // Fuktighetsgraf
+        const humidityCtx = document.getElementById('humidityChart').getContext('2d');
+        const humidityChart = new Chart(humidityCtx, {
+            type: 'line',
+            data: {
+                labels: labels, // Datoer fra databasen
+                datasets: [{
+                    label: 'Average Humidity (%)',
+                    data: humidityData, // Gjennomsnittlig fuktighet per dag
+                    borderColor: 'rgba(54, 162, 235, 1)',
+                    backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                    fill: true,
+                }]
+            },
+            options: {
+                scales: {
+                    x: {
+                        title: {
+                            display: true,
+                            text: 'Date'
+                        }
+                    },
+                    y: {
+                        title: {
+                            display: true,
+                            text: 'Humidity (%)'
+                        }
+                    }
+                }
+            }
+        });
+    </script>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <section>
+            <h5>© WeatherNow | All Rights Reserved</h5>
+        </section>
+    </footer>
+</body>
+</html>

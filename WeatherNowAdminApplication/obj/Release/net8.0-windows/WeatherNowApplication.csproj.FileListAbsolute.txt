@@ -1,0 +1,125 @@
+C:\Users\emilc\source\repos\WeatherNowApplication\bin\Release\net8.0-windows\WeatherNowApplication.exe
+C:\Users\emilc\source\repos\WeatherNowApplication\bin\Release\net8.0-windows\WeatherNowApplication.dll.config
+C:\Users\emilc\source\repos\WeatherNowApplication\bin\Release\net8.0-windows\WeatherNowApplication.deps.json
+C:\Users\emilc\source\repos\WeatherNowApplication\bin\Release\net8.0-windows\WeatherNowApplication.runtimeconfig.json
+C:\Users\emilc\source\repos\WeatherNowApplication\bin\Release\net8.0-windows\WeatherNowApplication.dll
+C:\Users\emilc\source\repos\WeatherNowApplication\bin\Release\net8.0-windows\WeatherNowApplication.pdb
+C:\Users\emilc\source\repos\WeatherNowApplication\bin\Release\net8.0-windows\System.Data.SqlClient.dll
+C:\Users\emilc\source\repos\WeatherNowApplication\bin\Release\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\emilc\source\repos\WeatherNowApplication\bin\Release\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\emilc\source\repos\WeatherNowApplication\bin\Release\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\emilc\source\repos\WeatherNowApplication\bin\Release\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\emilc\source\repos\WeatherNowApplication\bin\Release\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\emilc\source\repos\WeatherNowApplication\obj\Release\net8.0-windows\WeatherNowApplication.csproj.AssemblyReference.cache
+C:\Users\emilc\source\repos\WeatherNowApplication\obj\Release\net8.0-windows\WeatherNowApplication.AddUser.resources
+C:\Users\emilc\source\repos\WeatherNowApplication\obj\Release\net8.0-windows\WeatherNowApplication.Form1.resources
+C:\Users\emilc\source\repos\WeatherNowApplication\obj\Release\net8.0-windows\WeatherNowApplication.Properties.Resources.resources
+C:\Users\emilc\source\repos\WeatherNowApplication\obj\Release\net8.0-windows\WeatherNowApplication.csproj.GenerateResource.cache
+C:\Users\emilc\source\repos\WeatherNowApplication\obj\Release\net8.0-windows\WeatherNowApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emilc\source\repos\WeatherNowApplication\obj\Release\net8.0-windows\WeatherNowApplication.AssemblyInfoInputs.cache
+C:\Users\emilc\source\repos\WeatherNowApplication\obj\Release\net8.0-windows\WeatherNowApplication.AssemblyInfo.cs
+C:\Users\emilc\source\repos\WeatherNowApplication\obj\Release\net8.0-windows\WeatherNowApplication.csproj.CoreCompileInputs.cache
+C:\Users\emilc\source\repos\WeatherNowApplication\obj\Release\net8.0-windows\WeatherN.46B2802D.Up2Date
+C:\Users\emilc\source\repos\WeatherNowApplication\obj\Release\net8.0-windows\WeatherNowApplication.dll
+C:\Users\emilc\source\repos\WeatherNowApplication\obj\Release\net8.0-windows\refint\WeatherNowApplication.dll
+C:\Users\emilc\source\repos\WeatherNowApplication\obj\Release\net8.0-windows\WeatherNowApplication.pdb
+C:\Users\emilc\source\repos\WeatherNowApplication\obj\Release\net8.0-windows\WeatherNowApplication.genruntimeconfig.cache
+C:\Users\emilc\source\repos\WeatherNowApplication\obj\Release\net8.0-windows\ref\WeatherNowApplication.dll
+C:\Users\emilc\Desktop\WeatherNowAzureApplication\bin\Release\net8.0-windows\Properties\img\NexelLogo.png
+C:\Users\emilc\Desktop\WeatherNowAzureApplication\bin\Release\net8.0-windows\Properties\img\WeatherNowicon.ico
+C:\Users\emilc\Desktop\WeatherNowAzureApplication\bin\Release\net8.0-windows\Properties\img\WeatherNowLogo.png
+C:\Users\emilc\Desktop\WeatherNowAzureApplication\bin\Release\net8.0-windows\WeatherNowApplication.exe
+C:\Users\emilc\Desktop\WeatherNowAzureApplication\bin\Release\net8.0-windows\Properties\img\logo.ico
+C:\Users\emilc\Desktop\WeatherNowAzureApplication\bin\Release\net8.0-windows\WeatherNowApplication.dll.config
+C:\Users\emilc\Desktop\WeatherNowAzureApplication\bin\Release\net8.0-windows\WeatherNowApplication.deps.json
+C:\Users\emilc\Desktop\WeatherNowAzureApplication\bin\Release\net8.0-windows\WeatherNowApplication.runtimeconfig.json
+C:\Users\emilc\Desktop\WeatherNowAzureApplication\bin\Release\net8.0-windows\WeatherNowApplication.dll
+C:\Users\emilc\Desktop\WeatherNowAzureApplication\bin\Release\net8.0-windows\WeatherNowApplication.pdb
+C:\Users\emilc\Desktop\WeatherNowAzureApplication\bin\Release\net8.0-windows\System.Data.SqlClient.dll
+C:\Users\emilc\Desktop\WeatherNowAzureApplication\bin\Release\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\emilc\Desktop\WeatherNowAzureApplication\bin\Release\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\emilc\Desktop\WeatherNowAzureApplication\bin\Release\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\emilc\Desktop\WeatherNowAzureApplication\bin\Release\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\emilc\Desktop\WeatherNowAzureApplication\bin\Release\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\emilc\Desktop\WeatherNowAzureApplication\obj\Release\net8.0-windows\WeatherNowApplication.csproj.AssemblyReference.cache
+C:\Users\emilc\Desktop\WeatherNowAzureApplication\obj\Release\net8.0-windows\WeatherNowApplication.AddUser.resources
+C:\Users\emilc\Desktop\WeatherNowAzureApplication\obj\Release\net8.0-windows\WeatherNowApplication.Form1.resources
+C:\Users\emilc\Desktop\WeatherNowAzureApplication\obj\Release\net8.0-windows\WeatherNowApplication.Properties.Resources.resources
+C:\Users\emilc\Desktop\WeatherNowAzureApplication\obj\Release\net8.0-windows\WeatherNowApplication.csproj.GenerateResource.cache
+C:\Users\emilc\Desktop\WeatherNowAzureApplication\obj\Release\net8.0-windows\WeatherNowApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emilc\Desktop\WeatherNowAzureApplication\obj\Release\net8.0-windows\WeatherNowApplication.AssemblyInfoInputs.cache
+C:\Users\emilc\Desktop\WeatherNowAzureApplication\obj\Release\net8.0-windows\WeatherNowApplication.AssemblyInfo.cs
+C:\Users\emilc\Desktop\WeatherNowAzureApplication\obj\Release\net8.0-windows\WeatherNowApplication.csproj.CoreCompileInputs.cache
+C:\Users\emilc\Desktop\WeatherNowAzureApplication\obj\Release\net8.0-windows\WeatherN.46B2802D.Up2Date
+C:\Users\emilc\Desktop\WeatherNowAzureApplication\obj\Release\net8.0-windows\WeatherNowApplication.dll
+C:\Users\emilc\Desktop\WeatherNowAzureApplication\obj\Release\net8.0-windows\refint\WeatherNowApplication.dll
+C:\Users\emilc\Desktop\WeatherNowAzureApplication\obj\Release\net8.0-windows\WeatherNowApplication.pdb
+C:\Users\emilc\Desktop\WeatherNowAzureApplication\obj\Release\net8.0-windows\WeatherNowApplication.genruntimeconfig.cache
+C:\Users\emilc\Desktop\WeatherNowAzureApplication\obj\Release\net8.0-windows\ref\WeatherNowApplication.dll
+C:\Users\emilc\Desktop\Software Engineering\Deployment\WeatherNowAzureApplication\bin\Release\net8.0-windows\Properties\img\NexelLogo.png
+C:\Users\emilc\Desktop\Software Engineering\Deployment\WeatherNowAzureApplication\bin\Release\net8.0-windows\Properties\img\WeatherNowicon.ico
+C:\Users\emilc\Desktop\Software Engineering\Deployment\WeatherNowAzureApplication\bin\Release\net8.0-windows\Properties\img\WeatherNowLogo.png
+C:\Users\emilc\Desktop\Software Engineering\Deployment\WeatherNowAzureApplication\bin\Release\net8.0-windows\Properties\img\Logo_transparent.png
+C:\Users\emilc\Desktop\Software Engineering\Deployment\WeatherNowAzureApplication\bin\Release\net8.0-windows\WeatherNowApplication.exe
+C:\Users\emilc\Desktop\Software Engineering\Deployment\WeatherNowAzureApplication\bin\Release\net8.0-windows\Properties\img\logo.ico
+C:\Users\emilc\Desktop\Software Engineering\Deployment\WeatherNowAzureApplication\bin\Release\net8.0-windows\WeatherNowApplication.dll.config
+C:\Users\emilc\Desktop\Software Engineering\Deployment\WeatherNowAzureApplication\bin\Release\net8.0-windows\WeatherNowApplication.deps.json
+C:\Users\emilc\Desktop\Software Engineering\Deployment\WeatherNowAzureApplication\bin\Release\net8.0-windows\WeatherNowApplication.runtimeconfig.json
+C:\Users\emilc\Desktop\Software Engineering\Deployment\WeatherNowAzureApplication\bin\Release\net8.0-windows\WeatherNowApplication.dll
+C:\Users\emilc\Desktop\Software Engineering\Deployment\WeatherNowAzureApplication\bin\Release\net8.0-windows\WeatherNowApplication.pdb
+C:\Users\emilc\Desktop\Software Engineering\Deployment\WeatherNowAzureApplication\bin\Release\net8.0-windows\System.Data.SqlClient.dll
+C:\Users\emilc\Desktop\Software Engineering\Deployment\WeatherNowAzureApplication\bin\Release\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\emilc\Desktop\Software Engineering\Deployment\WeatherNowAzureApplication\bin\Release\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\emilc\Desktop\Software Engineering\Deployment\WeatherNowAzureApplication\bin\Release\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\emilc\Desktop\Software Engineering\Deployment\WeatherNowAzureApplication\bin\Release\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\emilc\Desktop\Software Engineering\Deployment\WeatherNowAzureApplication\bin\Release\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\emilc\Desktop\Software Engineering\Deployment\WeatherNowAzureApplication\obj\Release\net8.0-windows\WeatherNowApplication.csproj.AssemblyReference.cache
+C:\Users\emilc\Desktop\Software Engineering\Deployment\WeatherNowAzureApplication\obj\Release\net8.0-windows\WeatherNowApplication.AddUser.resources
+C:\Users\emilc\Desktop\Software Engineering\Deployment\WeatherNowAzureApplication\obj\Release\net8.0-windows\WeatherNowApplication.Form1.resources
+C:\Users\emilc\Desktop\Software Engineering\Deployment\WeatherNowAzureApplication\obj\Release\net8.0-windows\WeatherNowApplication.csproj.GenerateResource.cache
+C:\Users\emilc\Desktop\Software Engineering\Deployment\WeatherNowAzureApplication\obj\Release\net8.0-windows\WeatherNowApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emilc\Desktop\Software Engineering\Deployment\WeatherNowAzureApplication\obj\Release\net8.0-windows\WeatherNowApplication.AssemblyInfoInputs.cache
+C:\Users\emilc\Desktop\Software Engineering\Deployment\WeatherNowAzureApplication\obj\Release\net8.0-windows\WeatherNowApplication.AssemblyInfo.cs
+C:\Users\emilc\Desktop\Software Engineering\Deployment\WeatherNowAzureApplication\obj\Release\net8.0-windows\WeatherNowApplication.csproj.CoreCompileInputs.cache
+C:\Users\emilc\Desktop\Software Engineering\Deployment\WeatherNowAzureApplication\obj\Release\net8.0-windows\WeatherN.46B2802D.Up2Date
+C:\Users\emilc\Desktop\Software Engineering\Deployment\WeatherNowAzureApplication\obj\Release\net8.0-windows\WeatherNowApplication.dll
+C:\Users\emilc\Desktop\Software Engineering\Deployment\WeatherNowAzureApplication\obj\Release\net8.0-windows\refint\WeatherNowApplication.dll
+C:\Users\emilc\Desktop\Software Engineering\Deployment\WeatherNowAzureApplication\obj\Release\net8.0-windows\WeatherNowApplication.pdb
+C:\Users\emilc\Desktop\Software Engineering\Deployment\WeatherNowAzureApplication\obj\Release\net8.0-windows\WeatherNowApplication.genruntimeconfig.cache
+C:\Users\emilc\Desktop\Software Engineering\Deployment\WeatherNowAzureApplication\obj\Release\net8.0-windows\ref\WeatherNowApplication.dll
+C:\Users\emilc\Desktop\Software Engineering\Deployment\WeatherNowAzureApplication\obj\Release\net8.0-windows\WeatherNowApplication.AddSensor.resources
+C:\Users\emilc\Desktop\Software Engineering\Deployment\WeatherNowAzureApplication\obj\Release\net8.0-windows\WeatherNowApplication.Resources.resources
+C:\Users\emilc\Desktop\Software Engineering\Deployment\Sourcecode\WeatherNowAzureApplication\bin\Release\net8.0-windows\Properties\img\Logo_transparent.png
+C:\Users\emilc\Desktop\Software Engineering\Deployment\Sourcecode\WeatherNowAzureApplication\bin\Release\net8.0-windows\Properties\img\NexelLogo.png
+C:\Users\emilc\Desktop\Software Engineering\Deployment\Sourcecode\WeatherNowAzureApplication\bin\Release\net8.0-windows\Properties\img\WeatherNowicon.ico
+C:\Users\emilc\Desktop\Software Engineering\Deployment\Sourcecode\WeatherNowAzureApplication\bin\Release\net8.0-windows\Properties\img\WeatherNowLogo.png
+C:\Users\emilc\Desktop\Software Engineering\Deployment\Sourcecode\WeatherNowAzureApplication\bin\Release\net8.0-windows\WeatherNowApplication.exe
+C:\Users\emilc\Desktop\Software Engineering\Deployment\Sourcecode\WeatherNowAzureApplication\bin\Release\net8.0-windows\Properties\img\logo.ico
+C:\Users\emilc\Desktop\Software Engineering\Deployment\Sourcecode\WeatherNowAzureApplication\bin\Release\net8.0-windows\WeatherNowApplication.dll.config
+C:\Users\emilc\Desktop\Software Engineering\Deployment\Sourcecode\WeatherNowAzureApplication\bin\Release\net8.0-windows\WeatherNowApplication.deps.json
+C:\Users\emilc\Desktop\Software Engineering\Deployment\Sourcecode\WeatherNowAzureApplication\bin\Release\net8.0-windows\WeatherNowApplication.runtimeconfig.json
+C:\Users\emilc\Desktop\Software Engineering\Deployment\Sourcecode\WeatherNowAzureApplication\bin\Release\net8.0-windows\WeatherNowApplication.dll
+C:\Users\emilc\Desktop\Software Engineering\Deployment\Sourcecode\WeatherNowAzureApplication\bin\Release\net8.0-windows\WeatherNowApplication.pdb
+C:\Users\emilc\Desktop\Software Engineering\Deployment\Sourcecode\WeatherNowAzureApplication\bin\Release\net8.0-windows\System.Data.SqlClient.dll
+C:\Users\emilc\Desktop\Software Engineering\Deployment\Sourcecode\WeatherNowAzureApplication\bin\Release\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\emilc\Desktop\Software Engineering\Deployment\Sourcecode\WeatherNowAzureApplication\bin\Release\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\emilc\Desktop\Software Engineering\Deployment\Sourcecode\WeatherNowAzureApplication\bin\Release\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\emilc\Desktop\Software Engineering\Deployment\Sourcecode\WeatherNowAzureApplication\bin\Release\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\emilc\Desktop\Software Engineering\Deployment\Sourcecode\WeatherNowAzureApplication\bin\Release\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\emilc\Desktop\Software Engineering\Deployment\Sourcecode\WeatherNowAzureApplication\obj\Release\net8.0-windows\WeatherNowApplication.csproj.AssemblyReference.cache
+C:\Users\emilc\Desktop\Software Engineering\Deployment\Sourcecode\WeatherNowAzureApplication\obj\Release\net8.0-windows\WeatherNowApplication.AddSensor.resources
+C:\Users\emilc\Desktop\Software Engineering\Deployment\Sourcecode\WeatherNowAzureApplication\obj\Release\net8.0-windows\WeatherNowApplication.AddUser.resources
+C:\Users\emilc\Desktop\Software Engineering\Deployment\Sourcecode\WeatherNowAzureApplication\obj\Release\net8.0-windows\WeatherNowApplication.Form1.resources
+C:\Users\emilc\Desktop\Software Engineering\Deployment\Sourcecode\WeatherNowAzureApplication\obj\Release\net8.0-windows\WeatherNowApplication.Resources.resources
+C:\Users\emilc\Desktop\Software Engineering\Deployment\Sourcecode\WeatherNowAzureApplication\obj\Release\net8.0-windows\WeatherNowApplication.csproj.GenerateResource.cache
+C:\Users\emilc\Desktop\Software Engineering\Deployment\Sourcecode\WeatherNowAzureApplication\obj\Release\net8.0-windows\WeatherNowApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emilc\Desktop\Software Engineering\Deployment\Sourcecode\WeatherNowAzureApplication\obj\Release\net8.0-windows\WeatherNowApplication.AssemblyInfoInputs.cache
+C:\Users\emilc\Desktop\Software Engineering\Deployment\Sourcecode\WeatherNowAzureApplication\obj\Release\net8.0-windows\WeatherNowApplication.AssemblyInfo.cs
+C:\Users\emilc\Desktop\Software Engineering\Deployment\Sourcecode\WeatherNowAzureApplication\obj\Release\net8.0-windows\WeatherNowApplication.csproj.CoreCompileInputs.cache
+C:\Users\emilc\Desktop\Software Engineering\Deployment\Sourcecode\WeatherNowAzureApplication\obj\Release\net8.0-windows\WeatherN.46B2802D.Up2Date
+C:\Users\emilc\Desktop\Software Engineering\Deployment\Sourcecode\WeatherNowAzureApplication\obj\Release\net8.0-windows\WeatherNowApplication.dll
+C:\Users\emilc\Desktop\Software Engineering\Deployment\Sourcecode\WeatherNowAzureApplication\obj\Release\net8.0-windows\refint\WeatherNowApplication.dll
+C:\Users\emilc\Desktop\Software Engineering\Deployment\Sourcecode\WeatherNowAzureApplication\obj\Release\net8.0-windows\WeatherNowApplication.pdb
+C:\Users\emilc\Desktop\Software Engineering\Deployment\Sourcecode\WeatherNowAzureApplication\obj\Release\net8.0-windows\WeatherNowApplication.genruntimeconfig.cache
+C:\Users\emilc\Desktop\Software Engineering\Deployment\Sourcecode\WeatherNowAzureApplication\obj\Release\net8.0-windows\ref\WeatherNowApplication.dll
+C:\Users\emilc\Desktop\Software Engineering\Deployment\Sourcecode\WeatherNowAzureApplication\obj\Release\net8.0-windows\WeatherNowApplication.Login.resources

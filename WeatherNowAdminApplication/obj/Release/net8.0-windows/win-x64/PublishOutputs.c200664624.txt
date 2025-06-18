@@ -1,0 +1,8 @@
+C:\Users\emilc\source\repos\WeatherNowApplication\bin\Release\net8.0-windows\publish\win-x64\WeatherNowApplication.exe
+C:\Users\emilc\source\repos\WeatherNowApplication\bin\Release\net8.0-windows\publish\win-x64\WeatherNowApplication.dll
+C:\Users\emilc\source\repos\WeatherNowApplication\bin\Release\net8.0-windows\publish\win-x64\WeatherNowApplication.deps.json
+C:\Users\emilc\source\repos\WeatherNowApplication\bin\Release\net8.0-windows\publish\win-x64\WeatherNowApplication.runtimeconfig.json
+C:\Users\emilc\source\repos\WeatherNowApplication\bin\Release\net8.0-windows\publish\win-x64\WeatherNowApplication.dll.config
+C:\Users\emilc\source\repos\WeatherNowApplication\bin\Release\net8.0-windows\publish\win-x64\WeatherNowApplication.pdb
+C:\Users\emilc\source\repos\WeatherNowApplication\bin\Release\net8.0-windows\publish\win-x64\System.Data.SqlClient.dll
+C:\Users\emilc\source\repos\WeatherNowApplication\bin\Release\net8.0-windows\publish\win-x64\sni.dll

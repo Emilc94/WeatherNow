@@ -1,0 +1,288 @@
+/* Global Styles */
+*[b-5o5tk757gq] {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.adocumentation[b-5o5tk757gq] {
+    color: #1a1a1b;
+    text-decoration: none;
+    font-weight: bold;
+    border: 3px solid #6db37e;
+    border-radius: 20px;
+    padding: 15px 25px;
+    background-color: #b5dfa2;
+    display: inline-block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    width: 600px; /* Sett en fast bredde */
+    text-align: center; /* Sentrer teksten */
+}
+
+    .adocumentation:hover[b-5o5tk757gq] {
+        background-color: #e1f7f9;
+        border-color: #36b3c4;
+        color: #333;
+    }
+
+
+/* Body Background and Global Font */
+body[b-5o5tk757gq] {
+    font-family: Tahoma, sans-serif;
+    line-height: 1.85;
+    color: #232329;
+    background-color: hsl(73, 93%, 63%);
+    background: linear-gradient(40deg, #96ebe1ce, #57c757b4, #ebe981);
+}
+
+/* Flexbox container adjustments */
+.container[b-5o5tk757gq] {
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    flex-wrap: wrap;
+    text-align: center; /* Ensures text is centered */
+}
+
+.text-content[b-5o5tk757gq] {
+    flex: 1;
+    max-width: 50%;
+    margin: 0 auto; /* Center content within flexbox */
+}
+
+.center-text-container[b-5o5tk757gq] {
+    text-align: center;
+    padding: 20px 10%; /* Juster padding for mer luft rundt teksten */
+    margin: 0 auto; /* Fjern all margin, slik at den starter helt fra toppen */
+    max-width: 900px; /* Øk bredden litt for større skjermer */
+    font-family: 'Open Sans', Arial, sans-serif; /* Moderne font */
+    font-size: 1.7rem; /* Øk tekststørrelsen */
+    line-height: 1.5; /* Bedre lesbarhet */
+    letter-spacing: 0.5px; /* Litt ekstra mellomrom mellom bokstaver */
+    color: #2b2b2b; /* Mykere, mørk grå farge */
+    padding: 5px; /* Redusert padding for mer kompakt utseende */
+    padding-top: 0; /* Start rett fra toppen */
+}
+
+
+.siteimg-rightside[b-5o5tk757gq] {
+    flex: 1;
+    max-width: 45%;
+    height: auto;
+    margin: 20px auto 0 auto; /* midtstill bilde med margin justeringer */
+    display: block;
+    border-radius: 100px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-original[b-5o5tk757gq],
+.navbar-aboutus[b-5o5tk757gq],
+.navbar-documentation[b-5o5tk757gq] {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    display: none; /* Legg til display: none som standard */
+    transition: opacity 0.5s ease, visibility 0s, display 0s; /* Legg til overgang */
+}
+
+    .navbar-original.visible[b-5o5tk757gq],
+    .navbar-aboutus.visible[b-5o5tk757gq],
+    .navbar-documentation.visible[b-5o5tk757gq] {
+        opacity: 0;
+        visibility: visible;
+        display: block; /* Sørg for at navbarene vises */
+        z-index: 10;
+    }
+
+
+
+/* Navbar Styles */
+.navbar[b-5o5tk757gq] {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Center navbar items */
+    align-items: center;
+    min-height: 80px;
+    padding: 0 3%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.068);
+    background: rgba(255, 255, 255, 0.9);
+    z-index: 10;
+}
+
+/* Navbar Brand and Links */
+.navbar-brand-container[b-5o5tk757gq] {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centers brand logo and text */
+}
+
+.navbar .navbar-brand[b-5o5tk757gq] {
+    font-family: Arial;
+    line-height: 1.85;
+    color: #2b2828;
+    font-size: 2rem;
+    text-decoration: none;
+    white-space: nowrap;
+    margin: 0 auto
+}
+
+.navbar .navbar-nav[b-5o5tk757gq] {
+    display: flex;
+    justify-content: center; /* Center navbar links */
+    flex-wrap: wrap;
+}
+
+.navbar .nav-link[b-5o5tk757gq] {
+    margin: 5px;
+    color: #ffffff;
+    background: linear-gradient(7deg, #8a9113, #ffffff7c);
+    text-decoration: none;
+    padding: 7px 10px;
+    box-sizing: border-box;
+    border: 2px solid #e8f7b9f6;
+    border-radius: 15px;
+    font-size: 20px;
+    transition: border-color 0.3s, box-shadow 0.3s, background 0.3s ease, color 0.3s ease;
+}
+
+    .navbar .nav-link:hover[b-5o5tk757gq] {
+        background: #b1cd25;
+        color: #ffffff;
+    }
+
+.navbar-login[b-5o5tk757gq] {
+    background: linear-gradient(75deg, #ffffff, #a8dfbfa9);
+    padding: 10px 20px;
+    border-radius: 15px;
+    text-align: center;
+    display: inline-block;
+    transition: background 0.3s ease;
+}
+
+    .navbar-login:hover[b-5o5tk757gq] {
+        background: #b1cd25;
+        color: #ffffff;
+    }
+
+/* Headings */
+h1[b-5o5tk757gq] {
+    font-size: 48px;
+    color: #333;
+    margin-bottom: 0;
+    font-family: 'Calibri', serif;
+    text-align: center; /* Center the heading */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1), 0px 0px 10px rgba(64, 203, 221, 0.2);
+}
+
+/* Main Content */
+.main-content[b-5o5tk757gq] {
+    margin-top: 120px;
+    padding: 5%;
+    text-align: center; /* Center content inside main-content */
+}
+
+/* Footer */
+.footer[b-5o5tk757gq] {
+    padding: 10px;
+    text-align: center; /* Center footer text */
+    background: #359c6c81;
+    color: #fff;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.logo[b-5o5tk757gq] {
+    display: inline-block;
+    height: auto;
+    max-height: 70px; /* Juster høyden hvis nødvendig */
+    width: auto;
+    margin-right: 10px;
+    vertical-align: middle;
+    z-index: 10;
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container[b-5o5tk757gq] {
+        flex-direction: column;
+    }
+
+    .text-content[b-5o5tk757gq] {
+        max-width: 90%;
+    }
+
+    .siteimg-rightside[b-5o5tk757gq] {
+        max-width: 90%;
+    }
+
+    .navbar[b-5o5tk757gq] {
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
+    .navbar-brand-container[b-5o5tk757gq] {
+        margin-bottom: 10px;
+    }
+
+    .navbar-nav[b-5o5tk757gq] {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .adocumentation[b-5o5tk757gq] {
+        width: 100%;
+    }
+}
+
+@media (max-width: 360px) {
+    .container[b-5o5tk757gq] {
+        flex-direction: column;
+        padding: 5px 10px;
+        align-items: center;
+    }
+
+    .text-content[b-5o5tk757gq] {
+        max-width: 100%;
+        margin: 5px 0;
+        font-size: 0.9rem;
+    }
+
+    .siteimg-rightside[b-5o5tk757gq] {
+        max-width: 100%;
+        margin: 5px 0;
+    }
+
+    .navbar[b-5o5tk757gq] {
+        flex-direction: column;
+        padding: 10px 0;
+        align-items: center;
+    }
+
+    .navbar-brand-container[b-5o5tk757gq] {
+        margin-bottom: 8px;
+        text-align: center;
+    }
+
+    .navbar-nav[b-5o5tk757gq] {
+        width: 100%;
+        padding: 0;
+        justify-content: center;
+    }
+
+    .adocumentation[b-5o5tk757gq] {
+        width: 100%;
+        padding: 0.5rem;
+        font-size: 0.9rem;
+    }
+}

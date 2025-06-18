@@ -1,0 +1,96 @@
+﻿@page
+@model WeatherNowWebApp.Pages.LoginModel
+@{
+    ViewData["Title"] = "Login";
+    Layout = null;
+}
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherNow Login</title>
+    <link rel="stylesheet" href="~/css/login.css">
+</head>
+
+<header>
+    <nav class="navbar navbar-login">
+        <div class="container">
+            <div class="navbar-brand-container">
+                <img src="~/img/Logo.png" alt="WeatherNow Logo" class="logo" height="70">
+                <a class="navbar-brand" href="~/">WeatherNow</a>
+            </div>            
+        </div>
+    </nav>
+</header>
+
+<body class="loginbody">
+    <div class="main-content">
+        <main role="main" class="pb-3">
+            <section class="background">
+                <div class="container">
+                    <div class="text-content">
+                        <h1>Login</h1>
+                        <form method="post">
+                            <h4>Username:</h4>
+                            <input type="text" asp-for="Username" required />
+                            <span asp-validation-for="Username" class="text-danger"></span>
+
+                            <h4>Password:</h4>
+                            <input type="password" asp-for="Password" required />
+                            <span asp-validation-for="Password" class="text-danger"></span>
+
+                            <button type="submit">Login</button>
+
+                            <!-- Validation messages for login -->
+                            @if (ModelState[""]?.Errors?.Count > 0)
+                            {
+                                <p class="text-danger">@ModelState[""]?.Errors[0].ErrorMessage</p>
+                            }
+                        </form>
+
+                        <br><br>
+
+                        <h1>Create User</h1>
+                        <form method="post" asp-page-handler="CreateUser">
+                            <h4>Firstname:</h4>
+                            <input type="text" asp-for="Firstname" required />
+                            <span asp-validation-for="Firstname" class="text-danger"></span>
+
+                            <h4>Surname:</h4>
+                            <input type="text" asp-for="Surname" required />
+                            <span asp-validation-for="Surname" class="text-danger"></span>
+
+                            <h4>Username:</h4>
+                            <input type="text" asp-for="NewUsername" required />
+                            <span asp-validation-for="NewUsername" class="text-danger"></span>
+
+                            <h4>Create Password:</h4>
+                            <input type="password" asp-for="NewPassword" required />
+                            <span asp-validation-for="NewPassword" class="text-danger"></span>
+
+                            <h4>Confirm Password:</h4>
+                            <input type="password" asp-for="ConfirmPassword" required />
+                            <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+
+                            <button type="submit">Create User</button>
+
+                            <!-- Validation messages for user creation -->
+                            @if (!string.IsNullOrEmpty(Model?.CreateUserError))
+                            {
+                                <p class="text-danger">@Model.CreateUserError</p>
+                            }
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <section>
+            <h5>© WeatherNow | All Rights Reserved</h5>
+        </section>
+    </footer>
+
+    <script src="~/js/site.js"></script>
+</body>

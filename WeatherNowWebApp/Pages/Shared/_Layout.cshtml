@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] - WeatherNow</title>
+    @RenderSection("Styles", required: false) <!-- Legg til dette -->
+</head>
+<body>
+    <nav class="navbar navbar-original">
+        <div class="container">
+            <div class="navbar-brand-container">
+                <img src="~/img/Logo.png" alt="WeatherNow Logo" class="logo" height="70">
+                <a class="navbar-brand" href="/Index">Nexel Software</a>
+                <div class="nav-item">
+                    <a class="nav-link" href="/Login">Login</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <!-- Navbar Documentation -->
+    <nav class="navbar navbar-documentation">
+        <div class="container">
+            <div class="navbar-brand-container">
+                <img src="~/img/Logo.png" alt="WeatherNow Logo" class="logo" height="70">
+                <a class="navbar-brand" href="/Documentation">Documentation</a>
+                <div class="nav-item">
+                    <a class="nav-link" href="/Login">Login</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <!-- Navbar About Us -->
+    <nav class="navbar navbar-aboutus">
+        <div class="container">
+            <div class="navbar-brand-container">
+                <img src="~/img/Logo.png" alt="WeatherNow Logo" class="logo" height="70">
+                <a class="navbar-brand" href="/AboutUs">About Us</a>
+                <div class="nav-item">
+                    <a class="nav-link" href="/Login">Login</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="main-content">
+        @RenderBody()
+    </div>
+
+    <footer class="footer">
+        <section>
+            <h5>© WeatherNow | All Rights Reserved</h5>
+        </section>
+    </footer>
+
+    @RenderSection("Scripts", required: false) <!-- Legg til dette -->
+</body>
+</html>

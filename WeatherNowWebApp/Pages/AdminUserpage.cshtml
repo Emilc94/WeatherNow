@@ -1,0 +1,89 @@
+﻿@page
+@model WeatherNowWebApp.Pages.AdminUserpageModel
+
+@using Microsoft.AspNetCore.Authorization;
+@{
+    ViewData["Title"] = "AdminUserPage";
+    Layout = null;
+}
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherNow Login</title>
+    <link rel="stylesheet" href="~/css/userpage.css">
+</head>
+
+
+<header>
+    <nav class="navbar navbar-login">
+        <nav class="navbar content-container">
+
+            <div class="navbar-brand-container">
+                <img src="~/img/Logo.png" alt="WeatherNow Logo" class="logo" height="70">
+                <a class="navbar-brand" href="~/">WeatherNow</a>
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <form method="post" class="navbar-brand" asp-page-handler="Logout">
+                        <button type="submit">Logout</button>
+                    </form>
+                }
+            </div>
+        </nav>
+    </nav>
+</header>
+
+<body class="loginbody">
+    
+        <main role="main" class="pb-3">
+            <section class="background">
+                <div class="container">
+                    <div class="text-content">
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+
+                        <h1>Download Administrator Windows Application</h1>
+                        <div>
+                            <a href="~/app/WeatherNow.zip" class="download" download="WeatherNow.zip">Download</a>
+                            <style>
+                                .download {
+                                    display: inline-block;
+                                    background: linear-gradient(135deg, #0061FF, #60EFFF); /* Grønn gradient */
+                                    padding: 20px 70px;
+                                    border-radius: 15px;
+                                    color: #FFF;
+                                    text-decoration: none;
+                                    font-weight: bold;
+                                    font-size: 16px;
+                                    transition: background 0.3s ease, box-shadow 0.3s ease;
+                                    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                                }
+
+                                    .download:hover {
+                                        background: linear-gradient(135deg, #66BB6A, #A5D6A7); /* Lysere grønn gradient ved hover */
+                                        box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Litt dypere skygge ved hover */
+                                    }
+                            </style>
+                        </div>
+
+
+                        
+                    </div>
+                </div>
+            </section>
+        </main>
+    
+
+    <footer class="footer">
+        <section>
+            <h5>© WeatherNow | All Rights Reserved</h5>
+        </section>
+    </footer>
+@* 
+    <script src="~/js/site.js"></script> *@
+</body>

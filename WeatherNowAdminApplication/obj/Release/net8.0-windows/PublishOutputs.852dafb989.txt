@@ -1,0 +1,16 @@
+C:\Users\emilc\Desktop\Properties\img\logo.ico
+C:\Users\emilc\Desktop\WeatherNowApplication.exe
+C:\Users\emilc\Desktop\Properties\img\NexelLogo.png
+C:\Users\emilc\Desktop\Properties\img\WeatherNowicon.ico
+C:\Users\emilc\Desktop\Properties\img\WeatherNowLogo.png
+C:\Users\emilc\Desktop\WeatherNowApplication.dll
+C:\Users\emilc\Desktop\WeatherNowApplication.deps.json
+C:\Users\emilc\Desktop\WeatherNowApplication.runtimeconfig.json
+C:\Users\emilc\Desktop\WeatherNowApplication.dll.config
+C:\Users\emilc\Desktop\WeatherNowApplication.pdb
+C:\Users\emilc\Desktop\System.Data.SqlClient.dll
+C:\Users\emilc\Desktop\runtimes\win-arm64\native\sni.dll
+C:\Users\emilc\Desktop\runtimes\win-x64\native\sni.dll
+C:\Users\emilc\Desktop\runtimes\win-x86\native\sni.dll
+C:\Users\emilc\Desktop\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\emilc\Desktop\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

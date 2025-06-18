@@ -1,0 +1,242 @@
+:root {
+    --form-width: 250px
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+@media (min-width:1440px) {
+    .loginbody, body {
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 20px
+    }
+
+    .navbar-brand {
+        margin-left: 300px
+    }
+}
+
+@media (max-width:768px) {
+    .main-content {
+        margin-top: 120px;
+        padding: 5%
+    }
+
+    .navbar .navbar-brand {
+        font-size: 20px
+    }
+
+    .navbar .nav-link {
+        font-size: 14px;
+        padding: 8px 16px
+    }
+
+    body {
+        padding: 10px;
+        margin: 0 auto;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed
+    }
+
+    .loginbody {
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 20px
+    }
+
+    .navbar-brand {
+        margin-left: 0
+    }
+}
+
+input[type=password], input[type=text] {
+    width: 100%;
+    padding: 10px 15px;
+    margin: 0 0 20px 0;
+    box-sizing: border-box;
+    border: 2px solid #a1a0a0f6;
+    border-radius: 13px;
+    font-size: 16px;
+    background-color: hwb(192 98% 0);
+    transition: border-color .3s,box-shadow .3s
+}
+
+    input[type=password]:focus, input[type=text]:focus {
+        border-color: #40cbdd;
+        box-shadow: 0 0 8px rgba(64,203,221,.8);
+        outline: 0
+    }
+
+h4 {
+    font-size: 18px;
+    color: #2b2828;
+    margin-bottom: 8px;
+    font-weight: 700
+}
+
+h1 {
+    font-size: 48px;
+    color: #333;
+    margin-bottom: 0;
+    font-family: Calibri,serif;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.1),0 0 10px rgba(64,203,221,.2)
+}
+
+form {
+    margin-bottom: 150px;
+    text-align: center
+}
+
+    form button {
+        display: block;
+        width: 100%;
+        padding: 12px;
+        background-color: #54c0ce;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color .3s ease
+    }
+
+        form button:hover {
+            background-color: #36b3c4
+        }
+
+a {
+    color: #393942;
+    text-decoration: none;
+    transition: color .4s,border-bottom .4s
+}
+
+    a:hover {
+        color: #00000060
+    }
+
+body {
+    font-family: Tahoma,sans-serif;
+    line-height: 1.85;
+    background: linear-gradient(40deg,#40cbdd,#f1efe5);
+    color: #232329;
+    padding: 50px;
+    background-attachment: fixed;
+    background-repeat: no-repeat
+}
+
+    body::before {
+        content: '';
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 50%;
+        height: 100%;
+        background-image: url(../img/WeatherNowLogo.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center right;
+        z-index: -1
+    }
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1
+}
+
+.main-content {
+    margin-top: 100px;
+    padding: 5%;
+    max-width: 50%
+}
+
+.footer {
+    padding: 10px;
+    text-align: left;
+    background: #359c6c81;
+    color: #fff;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0
+}
+
+.logo {
+    display: inline-block;
+    height: auto;
+    max-height: 70px; /* Juster høyden hvis nødvendig */
+    width: auto;
+    margin-right: 10px;
+    vertical-align: middle;
+    z-index: 10;
+}
+
+
+
+.navbar {
+    display: flex;
+    justify-content: center; /* Centers navbar items */
+    align-items: center; /* Centers content vertically */
+    width: 100%;
+    height: 100px; /* Sett en fast høyde for navbaren */
+    padding: 0 20px; /* Litt ekstra padding på sidene */
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+
+.text-content {
+    max-width: 100%;
+    text-align: center
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80px;
+    padding: 0 3%;
+    box-shadow: 0 4px 8px rgba(0,0,0,.4),inset 0 1px 0 rgba(255,255,255,.068);
+    background: rgba(255,255,255,.9);
+    z-index: 10
+}
+
+.navbar-brand-container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.navbar .navbar-brand {
+    font-family: Arial;
+    line-height: 1.85;
+    color: #2b2828;
+    font-size: 2rem;
+    text-decoration: none;
+    white-space: nowrap;
+    margin: 0 auto
+}
+
+.navbar .navbar-nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap
+}

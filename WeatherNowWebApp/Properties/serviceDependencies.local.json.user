@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2024-11-04T14:42:11.3917231Z"
+    },
+    "secrets1": {
+      "restored": true,
+      "restoreTime": "2024-11-04T14:41:37.6718699Z"
+    }
+  },
+  "parameters": {
+    "mssql1.subscriptionId": {
+      "Name": "mssql1.subscriptionId",
+      "Type": "subscription",
+      "Value": "b5e27050-1516-4599-be05-434f115442ff"
+    },
+    "mssql1.resourceGroupName": {
+      "Name": "mssql1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "WeatherNow"
+    }
+  }
+}

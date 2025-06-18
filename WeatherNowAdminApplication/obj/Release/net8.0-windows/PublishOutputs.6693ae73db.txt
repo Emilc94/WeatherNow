@@ -1,0 +1,17 @@
+C:\Users\emilc\Desktop\Deployment\WeatherNowFinished\Properties\img\logo.ico
+C:\Users\emilc\Desktop\Deployment\WeatherNowFinished\WeatherNowApplication.exe
+C:\Users\emilc\Desktop\Deployment\WeatherNowFinished\Properties\img\Logo_transparent.png
+C:\Users\emilc\Desktop\Deployment\WeatherNowFinished\Properties\img\NexelLogo.png
+C:\Users\emilc\Desktop\Deployment\WeatherNowFinished\Properties\img\WeatherNowicon.ico
+C:\Users\emilc\Desktop\Deployment\WeatherNowFinished\Properties\img\WeatherNowLogo.png
+C:\Users\emilc\Desktop\Deployment\WeatherNowFinished\WeatherNowApplication.dll
+C:\Users\emilc\Desktop\Deployment\WeatherNowFinished\WeatherNowApplication.deps.json
+C:\Users\emilc\Desktop\Deployment\WeatherNowFinished\WeatherNowApplication.runtimeconfig.json
+C:\Users\emilc\Desktop\Deployment\WeatherNowFinished\WeatherNowApplication.dll.config
+C:\Users\emilc\Desktop\Deployment\WeatherNowFinished\WeatherNowApplication.pdb
+C:\Users\emilc\Desktop\Deployment\WeatherNowFinished\System.Data.SqlClient.dll
+C:\Users\emilc\Desktop\Deployment\WeatherNowFinished\runtimes\win-arm64\native\sni.dll
+C:\Users\emilc\Desktop\Deployment\WeatherNowFinished\runtimes\win-x64\native\sni.dll
+C:\Users\emilc\Desktop\Deployment\WeatherNowFinished\runtimes\win-x86\native\sni.dll
+C:\Users\emilc\Desktop\Deployment\WeatherNowFinished\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\emilc\Desktop\Deployment\WeatherNowFinished\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

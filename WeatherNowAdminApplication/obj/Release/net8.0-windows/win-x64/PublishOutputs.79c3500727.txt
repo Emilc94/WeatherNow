@@ -1,0 +1,13 @@
+C:\Users\emilc\Desktop\Software Engineering\Deployment\Sourcecode\WeatherNowAzureApplication\bin\Release\net8.0-windows\publish\win-x64\Properties\img\logo.ico
+C:\Users\emilc\Desktop\Software Engineering\Deployment\Sourcecode\WeatherNowAzureApplication\bin\Release\net8.0-windows\publish\win-x64\WeatherNowApplication.exe
+C:\Users\emilc\Desktop\Software Engineering\Deployment\Sourcecode\WeatherNowAzureApplication\bin\Release\net8.0-windows\publish\win-x64\Properties\img\Logo_transparent.png
+C:\Users\emilc\Desktop\Software Engineering\Deployment\Sourcecode\WeatherNowAzureApplication\bin\Release\net8.0-windows\publish\win-x64\Properties\img\NexelLogo.png
+C:\Users\emilc\Desktop\Software Engineering\Deployment\Sourcecode\WeatherNowAzureApplication\bin\Release\net8.0-windows\publish\win-x64\Properties\img\WeatherNowicon.ico
+C:\Users\emilc\Desktop\Software Engineering\Deployment\Sourcecode\WeatherNowAzureApplication\bin\Release\net8.0-windows\publish\win-x64\Properties\img\WeatherNowLogo.png
+C:\Users\emilc\Desktop\Software Engineering\Deployment\Sourcecode\WeatherNowAzureApplication\bin\Release\net8.0-windows\publish\win-x64\WeatherNowApplication.dll
+C:\Users\emilc\Desktop\Software Engineering\Deployment\Sourcecode\WeatherNowAzureApplication\bin\Release\net8.0-windows\publish\win-x64\WeatherNowApplication.deps.json
+C:\Users\emilc\Desktop\Software Engineering\Deployment\Sourcecode\WeatherNowAzureApplication\bin\Release\net8.0-windows\publish\win-x64\WeatherNowApplication.runtimeconfig.json
+C:\Users\emilc\Desktop\Software Engineering\Deployment\Sourcecode\WeatherNowAzureApplication\bin\Release\net8.0-windows\publish\win-x64\WeatherNowApplication.dll.config
+C:\Users\emilc\Desktop\Software Engineering\Deployment\Sourcecode\WeatherNowAzureApplication\bin\Release\net8.0-windows\publish\win-x64\WeatherNowApplication.pdb
+C:\Users\emilc\Desktop\Software Engineering\Deployment\Sourcecode\WeatherNowAzureApplication\bin\Release\net8.0-windows\publish\win-x64\System.Data.SqlClient.dll
+C:\Users\emilc\Desktop\Software Engineering\Deployment\Sourcecode\WeatherNowAzureApplication\bin\Release\net8.0-windows\publish\win-x64\sni.dll
