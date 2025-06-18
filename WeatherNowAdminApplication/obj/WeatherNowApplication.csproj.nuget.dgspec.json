@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\emilc\\Desktop\\WeatherNow\\WeatherNowAdminApplication\\WeatherNowApplication.csproj": {}
+    "C:\\Users\\emilc\\Documents\\GitHub\\WeatherNow\\WeatherNowAdminApplication\\WeatherNowApplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\emilc\\Desktop\\WeatherNow\\WeatherNowAdminApplication\\WeatherNowApplication.csproj": {
+    "C:\\Users\\emilc\\Documents\\GitHub\\WeatherNow\\WeatherNowAdminApplication\\WeatherNowApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\emilc\\Desktop\\WeatherNow\\WeatherNowAdminApplication\\WeatherNowApplication.csproj",
+        "projectUniqueName": "C:\\Users\\emilc\\Documents\\GitHub\\WeatherNow\\WeatherNowAdminApplication\\WeatherNowApplication.csproj",
         "projectName": "WeatherNowApplication",
-        "projectPath": "C:\\Users\\emilc\\Desktop\\WeatherNow\\WeatherNowAdminApplication\\WeatherNowApplication.csproj",
+        "projectPath": "C:\\Users\\emilc\\Documents\\GitHub\\WeatherNow\\WeatherNowAdminApplication\\WeatherNowApplication.csproj",
         "packagesPath": "C:\\Users\\emilc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\emilc\\Desktop\\WeatherNow\\WeatherNowAdminApplication\\obj\\",
+        "outputPath": "C:\\Users\\emilc\\Documents\\GitHub\\WeatherNow\\WeatherNowAdminApplication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\emilc\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,8 +39,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -70,7 +71,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.2.24474.11/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
